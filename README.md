@@ -7,5 +7,5 @@ Odin recipes is a website that will display recipes and images.
 
 This project demonstrates:
 - basic HTML skills 
+- basic CSS skill
 - basic git skills
-
