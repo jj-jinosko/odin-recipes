@@ -1,20 +1,22 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1 {
     color:darkblue;
     font-size: 72px;
 }
 
-.force {
-    color:darkblue;
-    font-size: 72px;
-}
-
-
 h2 {
-    color:teal;
+    color:mediumvioletred;
+    background-color: lightpink;
     /* font-weight: bold;  */
 }
 
-body {
+/* body {
     color:cadetblue;
-    /* background-color:bisque; */
+    background-color:rgb(190, 241, 241);
+} */
+
+img {
+    border-radius: 20%;
 }
