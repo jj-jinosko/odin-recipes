@@ -1,3 +1,8 @@
+/* :root {
+    color-scheme: light;
+  } */
+
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:10px;
@@ -6,9 +11,18 @@
     /* background-color: rgb(1, 24, 67) */
 }
 
+/* .header {
+    background-color: lightpink;
+} */
+
+button {
+    color:mediumvioletred;
+    background-color: lightpink;
+   
+}
+
 body {
     border: 5px dotted aqua;
-
 }
 
 h1 {
@@ -18,7 +32,7 @@ h1 {
 
     border: 10px dashed aquamarine;
     padding: 20px;
-    margin: auto;
+    /* margin: auto; */
 
     /* width: */
 }
@@ -37,16 +51,15 @@ ul, ol {
 
 ul {
     display:block; /*added to try to get container to fill max width by default*/
-    margin: center;
+    /* margin: center; */
     max-width: 350px;
     /* min-width:350px; */
     
 }
 
 ol {
-    margin-right: auto;
-    max-width: 600px;
-    
+    /* margin-right: auto; */
+    /* max-width: 600px; */  
 }
 
 a {
@@ -74,18 +87,28 @@ img {
     justify-content: flex-start;
 }
 
-.ingredients {
+
+.ingredients-box {
+    border: 5px solid transparent; /*added to fix alignment w steps*/
+    /* flex-basis: 350px; */
+    max-width: 350px;
+    width: 100%;
+}
+
+.ingredients-list {
     background-color: rgb(253, 231, 235);
 }
 
-.ingredients-div {
-    border: 5px solid transparent; /*added to fix alignment w steps*/
-}
-
-.steps-div {
+.steps-box {
     /* float: left;
     /* left: 0px; */
     /* margin: 0%; */ 
     border: 5px dotted rgb(251, 241, 157);
     width: 100%;
 }
+
+/* .steps-list {
+    margin-left: 0;
+    margin-right: auto;
+    color: black;
+} */
