@@ -30,15 +30,17 @@ h2 {
 
 ul, ol {
     color: slateblue;
-    font-size: 24px;
+    font-size: 1.5em;
     /*prevent bullet points and numbers from appearing outside of content container*/
     padding-left: 35px;
 }
 
 ul {
+    display:block; /*added to try to get container to fill max width by default*/
     margin: center;
     max-width: 350px;
-
+    /* min-width:350px; */
+    
 }
 
 ol {
@@ -49,7 +51,7 @@ ol {
 
 a {
     color: darkcyan;
-    font-size: 24px;
+    font-size: 24px; /*why is 1.5em so much bigger than 24px?*/
 }
 
 /* body {
@@ -76,7 +78,11 @@ img {
     background-color: rgb(253, 231, 235);
 }
 
-.steps {
+.ingredients-div {
+    border: 5px solid transparent; /*added to fix alignment w steps*/
+}
+
+.steps-div {
     /* float: left;
     /* left: 0px; */
     /* margin: 0%; */ 
