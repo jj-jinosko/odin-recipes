@@ -11,15 +11,23 @@
     /* background-color: rgb(1, 24, 67) */
 }
 
-/* .header {
-    background-color: lightpink;
-} */
+.header {
+    display: flex;
+    justify-content: center;
+    /* border: 5px dotted rgb(251, 241, 157); */
+}
 
 button {
     color:mediumvioletred;
     background-color: lightpink;
-   
+    font-size: 1.5em;
+
+    border-color: rgb(179, 125, 133);
+    max-width: 200px;
+    width: 100%;
+    
 }
+
 
 body {
     border: 5px dotted aqua;
