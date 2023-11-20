@@ -22,6 +22,11 @@ Odin recipes is a website that will display recipes and images.
 - Quote
 - Footer
 
+# TODO:
+- update images
+- create collapsing navigation menu
+    - bfast section?
+    - 
 
 ## Steps Taken
 - Set up repository

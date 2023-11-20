@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: darkcyan;
-    font-size: 4em;
+    font-size: 3rem;
     text-align: center;
 
     border: 10px dashed aquamarine;
@@ -72,7 +72,7 @@ img {
 nav ul {
     list-style-type: none;
     display: flex;
-    /* gap: 12px; */
+    gap: 12px;
 
     padding: 0px;
     max-width: none;
@@ -82,6 +82,14 @@ nav li {
     padding: 0px;
     margin: 0px;
 }
+nav li a:hover:not(.active) {
+    background-color: blanchedalmond;
+}
+
+.active {
+    background-color: lightpink;
+  }
+
 li.logo {
     margin-right: auto;
     color: purple;
