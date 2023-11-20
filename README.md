@@ -10,7 +10,7 @@ Odin recipes is a website that will display recipes and images.
 > - flexbox
 
 ## Home Page
-![home page](./img/home-page.png)
+![home page](./img/home-page1.png)
 
 ## Recipe Page
 ![recipe page](./img/recipe-page.png)
