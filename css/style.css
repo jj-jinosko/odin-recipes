@@ -4,14 +4,14 @@
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding:10px;
-    margin: 10px auto;
     box-sizing: border-box; /* includes margin in heigh and width */
     /* background-color: rgb(1, 24, 67) */
 }
 
 body {
     border: 5px dotted aqua;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -21,9 +21,6 @@ h1 {
 
     border: 10px dashed aquamarine;
     padding: 20px;
-    /* margin: auto; */
-
-    /* width: */
 }
 
 h2 {
@@ -39,11 +36,7 @@ ul, ol {
 }
 
 ul {
-    display:block; /*added to try to get container to fill max width by default*/
-    /* margin: center; */
-    max-width: 350px;
-    /* min-width:350px; */
-    
+    display: block;
 }
 
 ol {
@@ -110,6 +103,7 @@ font-size: 0.875rem;
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
+}
 
 .ingredients-box {
     border: 5px solid transparent; /*added to fix alignment w steps*/
@@ -130,8 +124,3 @@ font-size: 0.875rem;
     width: 100%;
 }
 
-/* .steps-list {
-    margin-left: 0;
-    margin-right: auto;
-    color: black;
-} */

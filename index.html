@@ -4,16 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <style>
+      body {
+        border: 5px dotted aqua;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /*---------HEADER----------------------*/
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 12px;
+      }
+
+      .header ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .header ul.right-links { 
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 12px;
+      }
+
+      /*---------------CONTENT--------------*/
+
+      .home-content {
+
+      }
+      
+      h1 {
+          color: darkcyan;
+          font-size: 3rem;
+          text-align: center;
+
+          border: 10px dashed aquamarine;
+          padding: 20px;
+      }
+
+      h2 {
+          color:mediumvioletred;
+          background-color: lightpink;
+      }
+
+      /*--------------FOOTER-----------------*/
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 12px;
+      }
+
+      .footer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav class="header">
+        <ul class="left-links">
           <li class="logo">
             <a class="active" href="/">
               Home
             </a>
           </li>
+        </ul>
+        <ul class="right-links">
           <li>
             <a href="">
               Ingredients
@@ -27,11 +94,31 @@
         </ul>
       </nav>
 
-    <h1>Odin Recipes</h1>
-    <ul>
-    <li><a href="./recipes/pancake-in-a-mug.html" target="_blank">Pancake in a Mug</a></li>
-    <li><a href="./recipes/apple-oat-pancakes.html" target="_blank">Apple Oat Pancakes</a></li>
-    <li><a href="./recipes/no-bake-cookies.html" target="_blank">No Bake Cookies</a></li>
-    </ul>
+    <div class="home-content">
+      <h1>Odin Recipes</h1>
+      <ul>
+      <li><a href="./recipes/pancake-in-a-mug.html" target="_blank">Pancake in a Mug</a></li>
+      <li><a href="./recipes/apple-oat-pancakes.html" target="_blank">Apple Oat Pancakes</a></li>
+      <li><a href="./recipes/no-bake-cookies.html" target="_blank">No Bake Cookies</a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+
+      <ul class="left">
+        <li>
+          copyright
+        </li>
+      </ul>
+
+      <ul class="right">
+        <li>
+          <a href="">
+            something
+          </a>
+        </li>
+      </ul>
+    </div>
+
 </body>
 </html>
