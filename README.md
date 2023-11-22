@@ -37,3 +37,4 @@ Odin recipes is a website that will display recipes and images.
 .
 - add navigation bar
 - 
+- created body branch to accomodate a large update, removing margin centering from all elements, and putting header, content, footer into flex boxes.
