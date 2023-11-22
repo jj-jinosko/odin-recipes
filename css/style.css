@@ -103,33 +103,38 @@ body {
 
    /*-----------RECIPE CONTENT-------------*/
 
-    .recipe img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-
+    /*class not working for img?*/
+    /* .recipe-img {
       border-radius: 20%;
-    }
+      margin: 12px auto;
+    } */
 
+    img {
+        border-radius: 20%;
+        margin: 12px auto;
+    }
     .recipe-content {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        /* align-items: stretch; */
+
       }
 
       .recipe-h1 {
+        margin: 12px auto;
         width: 98%; /*Stretch h1 element to fill left and right*/
       }
+
+      .recipe-content h2 {
+        margin: 0;
+        padding: 12px;
+      }
       
-      .recipe-content ul {
-        /* list-style-type: none;
-        padding: 0px; */
-    
+      .recipe-content ul, .recipe-content ol {
         color: slateblue;
         font-size: 1.5em;
       }
     
-      .recipe-content ul li {
+      .recipe-content ul li, .recipe-content ol li  {
         padding: 6px;
       }
     
@@ -137,21 +142,27 @@ body {
         color: darkcyan;
         font-size: 24px;
       }
-    /* .ingredients-box {
-        border: 5px solid transparent; added to fix alignment w steps */
+
+    .ingredients-box {
+        border: 5px solid transparent; /* added to fix alignment w steps */
         /* flex-basis: 350px; */
-        /* max-width: 350px;
+        margin: 12px;
+        padding: 12px;
+        max-width: 350px;
         width: 100%;
-    } */
+    }
     
-    /* .ingredients-list {
+    .ingredients-list {
         background-color: rgb(253, 231, 235);
-    } */
+    }
     
-    /* .steps-box {
+    /*fix box right border overlap with body border when window shrinks*/
+    .steps-box {
         border: 5px dotted rgb(251, 241, 157);
+        margin: 12px;
+        padding: 12px;
         width: 100%;
-    } */
+    }
 
   /*--------------FOOTER-----------------*/
 
